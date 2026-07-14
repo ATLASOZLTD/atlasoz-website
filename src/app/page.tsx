@@ -390,7 +390,7 @@ export default async function Home() {
 >
 
   <Image
-    src="/icons/whatsapp.png"
+    src="/icons/whatsapp.PNG"
     alt="WhatsApp"
     width={28}
     height={28}
@@ -468,7 +468,7 @@ export default async function Home() {
       >
 
         <Image
-          src="/icons/instagram.png"
+          src="/icons/instagram.PNG"
           alt="Instagram"
           width={36}
           height={36}
@@ -492,7 +492,7 @@ export default async function Home() {
 >
 
   <Image
-    src="/icons/facebook.png"
+    src="/icons/facebook.PNG"
     alt="Facebook"
     width={36}
     height={36}
@@ -516,7 +516,7 @@ export default async function Home() {
       >
 
         <Image
-          src="/icons/linkedin.png"
+          src="/icons/linkedin.PNG"
           alt="LinkedIn"
           width={36}
           height={36}
