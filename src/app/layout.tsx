@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ATLAS OZ LTD",
   description: "Visa Support, Translation & Logistics Services",
+  verification: {
+    google: "cVCIHxpFZtLTs2eSCVmImGJ-2SrJonJ42K8XO_X_TFc",
+  },
 };
 
 export default function RootLayout({
