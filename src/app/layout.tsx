@@ -13,11 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ATLAS OZ LTD",
-  description: "Visa Support, Translation & Logistics Services",
-  verification: {
-    google: "cVCIHxpFZtLTs2eSCVmImGJ-2SrJonJ42K8XO_X_TFc",
-  },
+  title: "ATLAS OZ LTD | UK Visa Support & Translation Services",
+  description:
+    "Professional UK visa support, translation services and form assistance. Helping individuals and families with UK visa applications, ILR, citizenship and official documents.",
 };
 
 export default function RootLayout({
