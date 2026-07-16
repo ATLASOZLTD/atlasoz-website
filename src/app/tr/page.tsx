@@ -1,12 +1,6 @@
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import type { Metadata } from "next";
+import Navbar from "../../components/Navbar";
 
-export const metadata: Metadata = {
-  title: "ATLAS OZ LTD | İngiltere Vize Desteği ve Tercüme Hizmetleri",
-  description:
-    "İngiltere vize başvuruları, ILR, vatandaşlık süreçleri, resmi belge desteği ve profesyonel tercüme hizmetleri konusunda destek.",
-};
 export default async function Home() {
   
   return (

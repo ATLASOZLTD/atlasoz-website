@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar({ lang = "en" }: { lang?: "en" | "tr" }) {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-yellow-500/20">
 
@@ -13,50 +13,62 @@ export default function Navbar() {
             href="#"
             className="hover:text-yellow-400 transition"
           >
-            Home
+            {lang === "tr" ? "Ana Sayfa" : "Home"}
           </a>
 
           <a
             href="#services"
             className="hover:text-yellow-400 transition"
           >
-            Services
+            {lang === "tr" ? "Hizmetler" : "Services"}
           </a>
 
           <a
             href="#about"
             className="hover:text-yellow-400 transition"
           >
-            About
+            {lang === "tr" ? "Hakkımızda" : "About"}
           </a>
 
           <a
             href="#contact"
             className="hover:text-yellow-400 transition"
           >
-            Contact
+            {lang === "tr" ? "İletişim" : "Contact"}
           </a>
 
         </nav>
 
-        {/* Languages */}
-<div className="absolute right-6 flex items-center gap-3 text-sm whitespace-nowrap">
 
-  <button
-    className="text-yellow-400 font-semibold"
+        {/* Languages */}
+        <div className="absolute right-6 flex items-center gap-3 text-sm whitespace-nowrap">
+
+  <Link
+    href="/"
+    className={
+      lang === "tr"
+        ? "text-yellow-400 font-semibold"
+        : "text-white/70 hover:text-white transition"
+    }
   >
-    EN
-  </button>
+    TR
+  </Link>
 
   <span className="text-white/30">|</span>
 
-  <button
-    className="text-white/70 hover:text-white transition"
+  <Link
+    href="/en"
+    className={
+      lang === "en"
+        ? "text-yellow-400 font-semibold"
+        : "text-white/70 hover:text-white transition"
+    }
   >
-    TR
-  </button>
+    EN
+  </Link>
 
 </div>
+
       </div>
 
     </header>

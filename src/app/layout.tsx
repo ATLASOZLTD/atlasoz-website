@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   title: "ATLAS OZ LTD | UK Visa Support & Translation Services",
   description:
     "Professional UK visa support, translation services and form assistance. Helping individuals and families with UK visa applications, ILR, citizenship and official documents.",
+  metadataBase: new URL("https://atlasoz.co.uk"),
+  alternates: {
+    languages: {
+      tr: "/",
+      en: "/en",
+    },
+  },
 };
 
 export default function RootLayout({
@@ -25,10 +32,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="tr"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex-col">
         {children}
       </body>
     </html>

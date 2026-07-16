@@ -3,15 +3,15 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ATLAS OZ LTD | İngiltere Vize Desteği ve Tercüme Hizmetleri",
+  title: "ATLAS OZ LTD | UK Visa Support & Translation Services",
   description:
-    "İngiltere vize başvuruları, ILR, vatandaşlık süreçleri, resmi belge desteği ve profesyonel tercüme hizmetleri konusunda destek.",
+    "Professional UK visa support, ILR, citizenship applications, document assistance and translation services for individuals and families.",
 };
 export default async function Home() {
   
   return (
     <>
-      <Navbar lang="tr" />
+      <Navbar lang="en" />
 
       <main className="relative z-10 text-white">
          
@@ -40,11 +40,11 @@ export default async function Home() {
 </div>
 
             <h1 className="text-xl md:text-2xl font-semibold leading-tight">
-  Birleşik Krallık'taki Güvenilir Çözüm Ortağınız
+  Your Trusted Partner in the United Kingdom
 </h1>
 
             <p className="mt-5 text-sm md:text-base text-white/80 max-w-xl mx-auto">
-              Profesyonel İngiltere Vize Desteği, Vatandaşlık Başvuruları, Tercümanlık Hizmetleri, Form Doldurma Desteği ve Göçmenlik Desteği.
+              Professional UK Visa Support, Citizenship Applications, Translation Services and Immigration Assistance.
             </p>
 
           </div>
@@ -59,7 +59,7 @@ export default async function Home() {
         
 
           <h2 className="text-xl md:text-2xl font-semibold text-center mb-3 bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-  Hizmetlerimiz
+  Our Services
 </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -75,12 +75,12 @@ export default async function Home() {
   />
 
   <h3 className="text-xl font-semibold mb-2 -mt-5 text-yellow-400">
-  İngiltere Vize Desteği
+  Visa Support
 </h3>
 
   <p className="text-gray-300 text-sm leading-relaxed">
-    Aile Vizesi, Eş Vizesi, Turist Vizesi, Ziyaretçi Vizesi,
-Öğrenci Vizesi, Süresiz Oturum (ILR) ve Vatandaşlık Başvuruları.
+    Family Visa, Spouse Visa, Tourist Visa, Visitor Visa,
+    Student Visa, ILR and Citizenship Applications.
   </p>
 
 </div>
@@ -96,12 +96,12 @@ export default async function Home() {
 />
 
   <h3 className="text-xl font-semibold mb-2 -mt-1 text-yellow-400 text-center">
-  Sözlü Tercümanlık
+  Consecutive Interpreting
 </h3>
 
   <p className="text-gray-300 text-sm leading-relaxed text-center">
-    Profesyonel İngilizce ⇄ Türkçe çeviri
-ve sözlü tercümanlık hizmetleri.
+    Professional English ⇄ Turkish translation
+    and interpreting services.
   </p>
 
 </div>
@@ -117,12 +117,11 @@ ve sözlü tercümanlık hizmetleri.
   />
 
   <h3 className="text-xl font-semibold mb-2 -mt-2 text-yellow-400 text-center">
-    Form Doldurma Desteği
+    Form Assistance
   </h3>
 
   <p className="text-gray-300 text-sm leading-relaxed text-center">
-    Home Office, DVLA, NHS, Belediye, Yardımlar ve Companies House
-formlarında profesyonel destek sağlayarak doğru ve sorunsuz başvurular yapmanıza yardımcı oluyoruz.
+    Professional assistance with Home Office, DVLA, NHS, Council, Benefits and Companies House forms, ensuring accurate and stress-free applications.
   </p>
 
 </div>
@@ -138,12 +137,12 @@ formlarında profesyonel destek sağlayarak doğru ve sorunsuz başvurular yapma
   />
 
   <h3 className="text-xl font-semibold mb-2 -mt-2 text-yellow-400 text-center">
-  Lojistik
+  Logistics
 </h3>
 
   <p className="text-gray-300 text-sm leading-relaxed text-center">
-    Uluslararası lojistik ve
-iş destek çözümleri.
+    International logistics and
+    business support solutions.
   </p>
 
 </div>
@@ -158,12 +157,12 @@ iş destek çözümleri.
           <div className="max-w-7xl mx-auto px-6">
 
             <h2 className="text-3xl font-semibold text-center mb-10">
-              Neden Atlas OZ?
+              Why Choose Atlas OZ?
             </h2>
 
             <p className="text-center text-gray-300 max-w-3xl mx-auto mb-16">
-              Birleşik Krallık genelinde bireyler, aileler ve işletmeler için
-güvenilir, profesyonel ve çözüm odaklı destek sağlıyoruz.
+              Reliable, professional and friendly support for individuals,
+              families and businesses across the United Kingdom.
             </p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -173,12 +172,11 @@ güvenilir, profesyonel ve çözüm odaklı destek sağlıyoruz.
   <div className="text-5xl mb-4">🇬🇧</div>
 
   <h3 className="text-xl font-semibold mb-3 text-yellow-400">
-    İngiltere Deneyimi
+    UK Experience
   </h3>
 
   <p className="text-gray-300 text-sm leading-relaxed">
-    Birleşik Krallık'ta yaşam ve çalışma deneyimimizle
-profesyonel destek sunuyoruz.
+    Years of practical experience living and working in the United Kingdom.
   </p>
 
 </div>
@@ -186,33 +184,33 @@ profesyonel destek sunuyoruz.
               <div className="group bg-black/30 border border-yellow-500/25 rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:bg-black/45 hover:border-yellow-400/40">
                 <div className="text-5xl mb-4">📋</div>
                 <h3 className="text-xl font-semibold mb-3 text-yellow-400">
-  Vize Desteği
+  Visa Assistance
 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Vize başvuruları, yerleşim,
-vatandaşlık ve göçmenlik süreçlerinde rehberlik ediyoruz.
+                  Guidance for visas, settlement,
+                  citizenship and immigration matters.
                 </p>
               </div>
 
               <div className="group bg-black/30 border border-yellow-500/25 rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:bg-black/45 hover:border-yellow-400/40">
                 <div className="text-5xl mb-4">🌍</div>
                 <h3 className="text-xl font-semibold mb-3 text-yellow-400">
-  Tercümanlık Desteği
+  Translation Support
 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  İngilizce ve Türkçe sözlü tercümanlık
-ve çeviri desteği sağlıyoruz.
+                  English and Turkish interpreting and
+                  translation assistance.
                 </p>
               </div>
 
               <div className="group bg-black/30 border border-yellow-500/25 rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:bg-black/45 hover:border-yellow-400/40">
                 <div className="text-5xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold mb-3 text-yellow-400">
-  Kişisel Hizmet
+  Personal Service
 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Her adımda samimi, şeffaf ve
-müşteri odaklı destek sunuyoruz.
+                  Friendly, transparent and client-focused
+                  support every step of the way.
                 </p>
               </div>
 
@@ -234,11 +232,11 @@ müşteri odaklı destek sunuyoruz.
 <div>
 
   <p className="text-yellow-400 uppercase tracking-[0.3em] mb-4">
-    Atlas OZ Hakkında
+    About Atlas OZ
   </p>
 
   <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
-    İngiltere Yolculuğunuzda Yanınızdayız
+    Supporting Your Journey in the UK
   </h2>
 
 
@@ -246,19 +244,20 @@ müşteri odaklı destek sunuyoruz.
   <div className="bg-black/30 border border-yellow-500/25 rounded-3xl p-10">
 
     <p className="text-gray-300 mb-6 leading-8">
-      Atlas OZ LTD, Birleşik Krallık genelinde bireyler,
-aileler ve işletmeler için profesyonel destek hizmetleri sunmaktadır.
+      Atlas OZ LTD provides professional support for individuals,
+      families and businesses across the United Kingdom.
     </p>
 
     <p className="text-gray-300 mb-6 leading-8">
-      Vize başvuruları, vatandaşlık işlemleri,
-Süresiz Oturum (ILR), pasaport başvuruları,
-form doldurma, tercümanlık ve çeviri hizmetleri konusunda destek sağlıyoruz.
+      We assist with visa applications, citizenship requests,
+      Indefinite Leave to Remain (ILR), passport applications,
+      form completion, translation and interpreting services.
     </p>
 
     <p className="text-gray-300 leading-8">
-      Amacımız, karmaşık süreçleri daha anlaşılır hale getirerek
-müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
+      Our goal is to make complex processes easier to understand
+      while providing reliable and professional guidance every step
+      of the way.
     </p>
 
   </div>
@@ -276,7 +275,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
             12+
           </h3>
           <p className="text-gray-300 mt-2">
-            Yıllık İngiltere Deneyimi
+            Years UK Experience
           </p>
         </div>
 
@@ -285,7 +284,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
             2
           </h3>
           <p className="text-gray-300 mt-2">
-            Desteklenen Diller
+            Languages Supported
           </p>
         </div>
 
@@ -294,7 +293,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
             100%
           </h3>
           <p className="text-gray-300 mt-2">
-            Müşteri Odaklı
+            Client Focused
           </p>
         </div>
 
@@ -303,7 +302,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
             UK
           </h3>
           <p className="text-gray-300 mt-2">
-            İngiltere Merkezli Hizmet
+            Based Service
           </p>
         </div>
 
@@ -321,11 +320,11 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
           <div className="max-w-5xl mx-auto px-6 text-center">
 
             <h2 className="text-4xl font-bold mb-4">
-              Başvurunuz İçin Desteğe mi İhtiyacınız Var?
+              Need Help With Your Application?
             </h2>
 
             <p className="text-lg mb-8">
-              Profesyonel destek almak için bugün Atlas OZ ile iletişime geçin.
+              Contact Atlas OZ today for professional support.
             </p>
 
             <a
@@ -334,7 +333,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
               rel="noopener noreferrer"
               className="inline-block bg-black text-white px-8 py-4 rounded-xl font-semibold"
             >
-              WhatsApp'tan Bize Ulaşın
+              WhatsApp Us
             </a>
 
           </div>
@@ -347,7 +346,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
 >
 
   <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-    Bize Ulaşın
+    Contact Us
   </h2>
 
 
@@ -375,7 +374,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
 
   <div className="text-left">
     <h3 className="text-yellow-400 font-semibold">
-      Telefon
+      Phone
     </h3>
 
     <p className="text-white">
@@ -433,7 +432,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
 
   <div className="text-left">
     <h3 className="text-yellow-400 font-semibold">
-      E-posta
+      Email
     </h3>
 
     <p className="text-white">
@@ -457,7 +456,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
     {/* Follow Us */}
 
     <h3 className="text-xl font-semibold text-yellow-400 mb-8">
-      Bizi Takip Edin
+      Follow Us
     </h3>
 
 
@@ -545,7 +544,7 @@ müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
 </section>
 
 <footer className="border-t border-yellow-500/20 py-8 text-center text-gray-400">
-  © 2026 Atlas OZ LTD. Tüm Hakları Saklıdır.
+  © 2026 Atlas OZ LTD. All Rights Reserved.
 </footer>
 {/* FLOATING WHATSAPP */}
 <a
