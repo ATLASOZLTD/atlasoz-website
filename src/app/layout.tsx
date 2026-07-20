@@ -17,7 +17,15 @@ export const metadata: Metadata = {
   title: "ATLAS OZ LTD | UK Visa Support & Translation Services",
   description:
     "Professional UK visa support, translation services and form assistance. Helping individuals and families with UK visa applications, ILR, citizenship and official documents.",
+
   metadataBase: new URL("https://atlasoz.co.uk"),
+
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
+
   alternates: {
     languages: {
       tr: "/",
