@@ -228,80 +228,108 @@ müşteri odaklı destek sunuyoruz.
   className="relative z-10 max-w-7xl mx-auto px-6 py-24"
 >
 
-  <div className="grid lg:grid-cols-2 gap-16 items-center">
-
-    {/* LEFT - About */}
-<div>
-
-  <p className="text-yellow-400 uppercase tracking-[0.3em] mb-4">
+  <p className="text-yellow-400 uppercase tracking-[0.3em] mb-4 text-center">
     Atlas OZ Hakkında
   </p>
 
-  <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
+  <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 text-white">
     İngiltere Yolculuğunuzda Yanınızdayız
   </h2>
 
+  <div className="grid lg:grid-cols-3 gap-8 items-start">
 
-  {/* Text Card */}
-  <div className="bg-black/30 border border-yellow-500/25 rounded-3xl p-10">
+    {/* Şirket Hakkında */}
+    <div className="bg-black/30 backdrop-blur-md border border-yellow-500/25 rounded-3xl p-8 h-full">
 
-    <p className="text-gray-300 mb-6 leading-8">
-      Atlas OZ LTD, Birleşik Krallık genelinde bireyler,
-aileler ve işletmeler için profesyonel destek hizmetleri sunmaktadır.
-    </p>
+      <h3 className="text-2xl font-bold text-yellow-400 mb-6">
+        Atlas OZ Hakkında
+      </h3>
 
-    <p className="text-gray-300 mb-6 leading-8">
-      Vize başvuruları, vatandaşlık işlemleri,
-Süresiz Oturum (ILR), pasaport başvuruları,
-form doldurma, tercümanlık ve çeviri hizmetleri konusunda destek sağlıyoruz.
-    </p>
+      <p className="text-gray-300 leading-8 mb-5">
+        Atlas OZ LTD, Birleşik Krallık genelinde bireyler, aileler ve
+        işletmeler için profesyonel destek hizmetleri sunmaktadır.
+      </p>
 
-    <p className="text-gray-300 leading-8">
-      Amacımız, karmaşık süreçleri daha anlaşılır hale getirerek
-müşterilerimize her aşamada güvenilir ve profesyonel rehberlik sunmaktır.
-    </p>
+      <p className="text-gray-300 leading-8 mb-5">
+        Vize başvuruları, vatandaşlık işlemleri, Süresiz Oturum (ILR),
+        pasaport başvuruları, form doldurma, tercümanlık ve çeviri
+        hizmetlerinde idari destek sağlıyoruz.
+      </p>
 
-  </div>
+      <p className="text-gray-300 leading-8">
+        Amacımız karmaşık süreçleri daha anlaşılır hale getirerek
+        müşterilerimize güvenilir ve profesyonel destek sunmaktır.
+      </p>
 
-</div>
+    </div>
 
+    {/* Hizmet Kapsamı */}
+    <div className="bg-black/30 backdrop-blur-md border border-yellow-500/25 rounded-3xl p-8 h-full">
 
-    {/* RIGHT - Stats Card */}
-    <div className="bg-black/30 border border-yellow-500/25 rounded-3xl p-10">
+      <h3 className="text-2xl font-bold text-yellow-400 mb-6">
+        Hizmet Kapsamımız
+      </h3>
+
+      <p className="text-gray-300 leading-7 mb-4">
+        ATLAS OZ LTD, göçmenlik danışmanlığı veya hukuki danışmanlık
+        hizmeti sunmamaktadır.
+      </p>
+
+      <p className="text-gray-300 leading-7 mb-4">
+        Hizmetlerimiz yalnızca müşterilerimizin tercih ettiği başvuru
+        türü ve sağladıkları bilgiler doğrultusunda idari destek
+        sağlamaya yöneliktir.
+      </p>
+
+      <ul className="list-disc pl-5 space-y-2 text-gray-300">
+
+        <li>Başvuru formlarının hazırlanması</li>
+
+        <li>Belgelerin düzenlenmesi</li>
+
+        <li>İngilizce ↔ Türkçe tercümanlık</li>
+
+        <li>Form ve belge desteği</li>
+
+        <li>Uluslararası lojistik desteği</li>
+
+      </ul>
+
+      <p className="text-gray-300 leading-7 mt-5">
+        Başvurularla ilgili tüm kararlar ve sağlanan bilgilerin
+        doğruluğu müşterilerimize aittir.
+      </p>
+
+    </div>
+
+    {/* İstatistikler */}
+    <div className="bg-black/30 backdrop-blur-md border border-yellow-500/25 rounded-3xl p-8">
 
       <div className="grid grid-cols-2 gap-8">
 
         <div>
-          <h3 className="text-4xl font-bold text-yellow-400">
-            12+
-          </h3>
+          <h3 className="text-4xl font-bold text-yellow-400">12+</h3>
           <p className="text-gray-300 mt-2">
             Yıllık İngiltere Deneyimi
           </p>
         </div>
 
         <div>
-          <h3 className="text-4xl font-bold text-yellow-400">
-            2
-          </h3>
+          <h3 className="text-4xl font-bold text-yellow-400">2</h3>
           <p className="text-gray-300 mt-2">
             Desteklenen Diller
           </p>
         </div>
 
         <div>
-          <h3 className="text-4xl font-bold text-yellow-400">
-            100%
-          </h3>
+          <h3 className="text-4xl font-bold text-yellow-400">100%</h3>
           <p className="text-gray-300 mt-2">
             Müşteri Odaklı
           </p>
         </div>
 
         <div>
-          <h3 className="text-4xl font-bold text-yellow-400">
-            UK
-          </h3>
+          <h3 className="text-4xl font-bold text-yellow-400">UK</h3>
           <p className="text-gray-300 mt-2">
             İngiltere Merkezli Hizmet
           </p>
