@@ -226,91 +226,166 @@ export default async function Home() {
   className="relative z-10 max-w-7xl mx-auto px-6 py-24"
 >
 
-  <div className="grid lg:grid-cols-2 gap-16 items-center">
-
-    {/* LEFT - About */}
-<div>
-
-  <p className="text-yellow-400 uppercase tracking-[0.3em] mb-4">
+  <p className="text-yellow-400 uppercase tracking-[0.3em] mb-4 text-center">
     About Atlas OZ
   </p>
 
-  <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
-    Supporting Your Journey in the UK
+  <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 text-white">
+    Supporting You Throughout Your UK Journey
   </h2>
 
 
-  {/* Text Card */}
-  <div className="bg-black/30 border border-yellow-500/25 rounded-3xl p-10">
-
-    <p className="text-gray-300 mb-6 leading-8">
-      Atlas OZ LTD provides professional support for individuals,
-      families and businesses across the United Kingdom.
-    </p>
-
-    <p className="text-gray-300 mb-6 leading-8">
-      We assist with visa applications, citizenship requests,
-      Indefinite Leave to Remain (ILR), passport applications,
-      form completion, translation and interpreting services.
-    </p>
-
-    <p className="text-gray-300 leading-8">
-      Our goal is to make complex processes easier to understand
-      while providing reliable and professional guidance every step
-      of the way.
-    </p>
-
-  </div>
-
-</div>
+  <div className="grid lg:grid-cols-3 gap-8 items-start">
 
 
-    {/* RIGHT - Stats Card */}
-    <div className="bg-black/30 border border-yellow-500/25 rounded-3xl p-10">
+    {/* Company Information */}
+    <div className="bg-black/30 backdrop-blur-md border border-yellow-500/25 rounded-3xl p-8 h-full">
+
+      <h3 className="text-2xl font-bold text-yellow-400 mb-6">
+        About Atlas OZ
+      </h3>
+
+      <p className="text-gray-300 leading-8 mb-5">
+        Atlas OZ LTD provides professional administrative support
+        services for individuals, families and businesses throughout
+        the United Kingdom.
+      </p>
+
+      <p className="text-gray-300 leading-8 mb-5">
+        We provide support with visa applications, citizenship
+        processes, Indefinite Leave to Remain (ILR), passport
+        applications, form assistance, interpreting and translation
+        services.
+      </p>
+
+      <p className="text-gray-300 leading-8">
+        Our aim is to make complex processes easier to understand
+        by providing reliable and professional support to our clients.
+      </p>
+
+    </div>
+
+
+
+    {/* Service Scope */}
+    <div className="bg-black/30 backdrop-blur-md border border-yellow-500/25 rounded-3xl p-8 h-full">
+
+      <h3 className="text-2xl font-bold text-yellow-400 mb-6">
+        Our Service Scope
+      </h3>
+
+
+      <p className="text-gray-300 leading-7 mb-4">
+        ATLAS OZ LTD does not provide immigration consultancy or
+        legal advisory services.
+      </p>
+
+
+      <p className="text-gray-300 leading-7 mb-4">
+        Our services are limited to providing administrative support
+        based on the type of application chosen by our clients and
+        the information provided by them.
+      </p>
+
+
+      <ul className="list-disc pl-5 space-y-2 text-gray-300">
+
+        <li>
+          Preparation of application forms
+        </li>
+
+        <li>
+          Organisation of documents
+        </li>
+
+        <li>
+          English ↔ Turkish interpreting services
+        </li>
+
+        <li>
+          Form and document assistance
+        </li>
+
+        <li>
+          International logistics support
+        </li>
+
+      </ul>
+
+
+      <p className="text-gray-300 leading-7 mt-5">
+        All decisions regarding applications and the accuracy of the
+        information provided remain the responsibility of our clients.
+      </p>
+
+
+    </div>
+
+
+
+
+    {/* Statistics */}
+    <div className="bg-black/30 backdrop-blur-md border border-yellow-500/25 rounded-3xl p-8">
+
 
       <div className="grid grid-cols-2 gap-8">
+
 
         <div>
           <h3 className="text-4xl font-bold text-yellow-400">
             12+
           </h3>
+
           <p className="text-gray-300 mt-2">
-            Years UK Experience
+            Years of UK Experience
           </p>
         </div>
+
+
 
         <div>
           <h3 className="text-4xl font-bold text-yellow-400">
             2
           </h3>
+
           <p className="text-gray-300 mt-2">
-            Languages Supported
+            Supported Languages
           </p>
         </div>
+
+
 
         <div>
           <h3 className="text-4xl font-bold text-yellow-400">
             100%
           </h3>
+
           <p className="text-gray-300 mt-2">
             Client Focused
           </p>
         </div>
 
+
+
         <div>
           <h3 className="text-4xl font-bold text-yellow-400">
             UK
           </h3>
+
           <p className="text-gray-300 mt-2">
-            Based Service
+            UK Based Services
           </p>
         </div>
 
+
       </div>
+
 
     </div>
 
+
   </div>
+
 
 </section>
 
